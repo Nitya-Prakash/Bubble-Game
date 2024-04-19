@@ -1,0 +1,62 @@
+#pannel {
+    height: 93%;
+    width: 90%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(46, 46, 46);
+    overflow: hidden;
+}
+
+#ptop {
+    height: 13%;
+    width: 100%;
+    background-color: rgb(8, 109, 8);
+    display: flex;
+    color: white;
+    padding: 0px 3%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.elem h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.box {
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(18, 59, 18);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#pbtm {
+    height: calc(100% - 10%);
+    width: 100%;
+    padding: 1% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.bubble {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(72, 104, 72);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
